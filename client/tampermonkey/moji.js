@@ -9,8 +9,8 @@ function removeDom(className) {
     try {
         const childDoms = document.querySelectorAll(className.trim());
         for (let i = 0; i < childDoms.length; i++) {
-        const childDom = childDoms[i];
-        childDom.parentNode.removeChild(childDom);
+            const childDom = childDoms[i];
+            childDom.parentNode.removeChild(childDom);
         }
     } catch (e) {
         console.log('e', e);

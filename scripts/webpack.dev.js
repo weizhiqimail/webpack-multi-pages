@@ -15,7 +15,7 @@ module.exports = webpackMerge.merge(webpackBaseConfig, {
 
   devServer: {
     allowedHosts: ['localhost'],
-    port: 3200,
+    port: 4400,
     compress: true,
     client: {
       logging: 'info',
