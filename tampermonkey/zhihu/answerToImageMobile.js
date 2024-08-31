@@ -2,7 +2,6 @@
 // @name         知乎回答手机端样式处理方便截图
 // @namespace    http://overflow.cat/
 // @version      0.1.2
-// @description  知乎单个答案删除其他内容
 // @author       OverflowCat
 // @match        https://www.zhihu.com/*
 // @require      http://file.ikite.top/cdn/html2canvas.min.js
