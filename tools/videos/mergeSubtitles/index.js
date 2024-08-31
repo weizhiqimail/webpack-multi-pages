@@ -121,7 +121,7 @@ function generateTargetSubtitlesFile(list, type = '1') {
 				const row1Text = subItem.row1Text || '';
 				const row2Text = subItem.row2Text || '';
 				return `${subItem.row1Language}：${row1Text}\n\n${subItem.row2Language}：${row2Text}\n`;
-			}).join('\n');
+			}).join('\n\n');
 			
 			subTitleText += `## ${title}\n\n${result}\n\n`;
 			
