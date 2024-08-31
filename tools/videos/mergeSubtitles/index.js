@@ -120,7 +120,10 @@ function generateTargetSubtitlesFile(list, type = '1') {
 			const result = subTitleList.map((subItem) => {
 				const row1Text = subItem.row1Text || '';
 				const row2Text = subItem.row2Text || '';
-				return `${subItem.row1Language}：${row1Text}\n\n${subItem.row2Language}：${row2Text}\n`;
+				const localBlockList = [];
+				localBlockList.push(`- ${subItem.row1Language}：${row1Text}`);
+				localBlockList.push(`- ${subItem.row2Language}：${row2Text}`);
+				return localBlockList.join('\n');
 			}).join('\n\n');
 			
 			subTitleText += `## ${title}\n\n${result}\n\n`;
