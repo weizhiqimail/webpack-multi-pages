@@ -124,7 +124,7 @@ function generateTargetSubtitlesFile(list, type = '1') {
 				localBlockList.push(`- ${subItem.row1Language}：${row1Text}`);
 				localBlockList.push(`- ${subItem.row2Language}：${row2Text}`);
 				return localBlockList.join('\n');
-			}).join('\n <br/> \n');
+			}).join('\n <br><br> \n');
 			
 			subTitleText += `## ${title}\n\n${result}\n\n`;
 			
