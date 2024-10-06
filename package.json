@@ -1,8 +1,8 @@
 {
-  "name": "ninja-web-service",
+  "name": "mikan-web-service",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/dorisentomari/jninja-web-servic.git",
+  "repository": "https://github.com/dorisentomari/mikan-web-service.git",
   "author": "dorisentomari <dorisentomari@gmail.com>",
   "license": "MIT",
   "scripts": {
