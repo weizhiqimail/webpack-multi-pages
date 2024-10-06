@@ -1,15 +1,14 @@
 {
-  "name": "javascript-tools",
+  "name": "ninja-web-service",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/dorisentomari/javascript-tools.git",
+  "repository": "https://github.com/dorisentomari/jninja-web-servic.git",
   "author": "dorisentomari <dorisentomari@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "npm-run-all --parallel dev:**",
-    "dev:client": "webpack serve --config ./scripts/webpack.dev.js",
-    "dev:server": "nodemon ./server/index.js",
-    "build:client": "webpack --config ./scripts/webpack.prod.js",
+    "dev": "webpack serve --config ./build/webpack.dev.js",
+    "serve": "nodemon ./server/index.js",
+    "build": "webpack --config ./build/webpack.prod.js",
     "rimraf:dist": "rimraf dist",
     "push": "git add . && git commit -m update && git push"
   },

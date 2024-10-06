@@ -49,7 +49,7 @@ function generatePagesConfig() {
   const entry = pageEntryList.reduce((prev, curr) => {
     prev[curr.name] = path.resolve(
       __dirname,
-      `../client/pages/${curr.name}/index.tsx`,
+      `../src/pages/${curr.name}/index.tsx`,
     );
     return prev;
   }, {});
